@@ -4,5 +4,5 @@ $(function(){
 			'background-color':'#0000FF',
 			'height':'100px'
 	    });
-	});
+	}).slideUp();
 });
