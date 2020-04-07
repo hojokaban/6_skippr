@@ -1,14 +1,11 @@
-var i;
-var num = 0;
+var alertString;
 
-for(i=1; i < 11; i++){
-	num = num + i;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+
+function addString(strA){
+	var addStr = "Hello " + strA;
+	return addStr;
 }
-alert('1から10まで足した結果は' + num + 'です。');
-
-var n = 2;
-var m = 6;
-
-var sum = n+ m;
-
-alert(n+'+'+m+'='+ sum +'です。');
