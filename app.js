@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 
 
@@ -61,3 +62,9 @@ function winLose(user, js){
 	}
 	return winLoseStr;
 }
+=======
+$(document).ready(function () {
+	$('body').html('<h1>Hello jQuery!!</h1>');
+});
+
+>>>>>>> [Finish]6-4
